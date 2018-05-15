@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 24 17:22:47 2018
+
+@author: andre
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+import qutip as qt

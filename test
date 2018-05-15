@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 10 19:11:24 2018
+
+@author: andre
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+import qutip as qt
+import matplotlib.animation as animation
+
+N=2
+L=qt.sigmap()+(qt.identity(2)+qt.sigmaz())/2
+H=-qt.sigmaz()
+g=qt.fock(2,0)
+e=qt.fock(2,1)
+psi0=(g+e)/np.sqrt(2)
+time=np.linspace(0,50,1000)
+sol=qt.mesolve(H,psi0,time,[L*0.3],[])
+
