@@ -181,10 +181,12 @@ L'état propre de $H_{osc}$ de valeur propre $\hbar\omega(n+\frac 12)$ est $\ket
 
 \begin{frame}{Oscillateur harmonique}
 \framesubtitle{Visualisation}
-Fonction de Wigner sur l'éspace des phases:
+\begin{block}{Fonction de Wigner (sur l'éspace des phases)}
 \[
 \mathcal{W}(x,p)=\frac{1}{\pi\hbar}\int_{-\infty}^{+\infty}\psi^*(x+y)\psi(x-y)\textrm{e}^{2ipy/\hbar}\textrm{dy}
 \]
+\end{block}
+
 On a la probabilité de présence en représentation $x$: P(x)=$\int\mathcal{W}(x,p)\textrm{dp}$ et vice versa.
 
 Si négative: état sans analogue classique.
@@ -257,18 +259,51 @@ Un état pur dont on prends la trace partielle devient un état mixte.
 
 \begin{frame}{Décohérence d'un système quantique}
 \framesubtitle{Matrice de densité}
+\begin{block}{Matrice de densité}
+\[
+\rho=\sum p_{\alpha} \ket{\psi_{\alpha}}\bra{\psi_{\alpha}}
+\]
+Représente un mélange statistique d'états purs.
+\end{block}
+Pas une superposition:
+\begin{figure}
+\centering
+\includegraphics[width=0.6\linewidth]{pres_wigner_cat_dec}
+\caption{A gauche un état de chat. A droite un mélange classique de deux états cohérents.}
+\label{fig:preswignercatdec}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Équation de Lindblad}
 \framesubtitle{Opérateurs de Kraus}
+
 \end{frame}
 
 \begin{frame}{Équation de Lindblad}
 \framesubtitle{L'équation}
+\begin{block}{Équation de Schrödinger}
+\[
+\frac{\textrm{d}\rho}{\textrm{dt}}=-\frac{i}{\hbar}\left[\mathcal{H},\rho\right]
+\]
+\end{block}
+\begin{block}{Équation de Lindblad}
+\[
+\frac{\textrm{d}\rho}{\textrm{dt}}=-\frac{i}{\hbar}\left[\mathcal{H},\rho\right]+\sum_{\mu}\left(
+	L_{\mu}\rho L_{\mu}^{\dag}-\frac 12 L_{\mu}^{\dag}L_{\mu}\rho -\frac 12 \rho L_{\mu}^{\dag}L_{\mu}
+	\right)
+\]
+\end{block}
 \end{frame}
 
 \begin{frame}{Équation de Lindblad}
 \framesubtitle{Signification physique}
+Propriétés de l'équation:
+\begin{enumerate}
+\item Linéaire
+\item Garde la trace de $\rho$ constante
+\item Garde $\rho$ hermitienne
+
+\end{enumerate}
 \end{frame}
 
 \begin{frame}{Équation de Lindblad}
@@ -302,6 +337,10 @@ Un état pur dont on prends la trace partielle devient un état mixte.
 
 \begin{frame}{Décohérence d'un oscillateur}
 \framesubtitle{État de chat}
+\end{frame}
+
+\begin{frame}{Entropie}
+content...
 \end{frame}
 
 \section{Trajectoires quantiques et mesures}
