@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.4.30)  15 MAY 2018 00:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.5.19)  22 MAY 2018 11:53
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
@@ -735,7 +735,7 @@ Package pdftex.def Info: U_Fock_deco_1.png  used on input line 299.
 Here is how much of TeX's memory you used:
  14438 strings out of 492649
  274287 string characters out of 6135778
- 338053 words of memory out of 5000000
+ 338054 words of memory out of 5000000
  18003 multiletter control sequences out of 15000+600000
  12828 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

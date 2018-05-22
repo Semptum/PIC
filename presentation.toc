@@ -1,1 +1,5 @@
 \babel@toc {french}{}
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\beamer@sectionintoc {2}{R\IeC {\'e}solution des syst\IeC {\`e}mes simples}{6}{0}{2}
+\beamer@sectionintoc {3}{D\IeC {\'e}coh\IeC {\'e}rence}{15}{0}{3}
+\beamer@sectionintoc {4}{Trajectoires quantiques et mesures}{28}{0}{4}
